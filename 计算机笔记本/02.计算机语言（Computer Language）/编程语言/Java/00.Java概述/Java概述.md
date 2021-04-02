@@ -39,6 +39,18 @@ Java 语言介于编译型语言和解释型语言之间。编译型语言如C�
 
 ![Java 程序执行过程](Pictures\Java程序执行过程2.png)
 
+- 类加载器
+
+  类加载器classloader是专门负责加载类的命令/工具
+  JDK中自带了3个类加载器
+
+  - 启动类加载器：rt.jar
+    先通过启动类加载器加载 c: \Program Files\Javajdk1.8.0_101\jre\liblrt.rt.jar（java核心类库）
+  - 扩展类加载器：ext/.jar
+    扩展类加载器专门加载: c: \Program Files\Java\jdk1.8.0_101\jre\lib\ext\.jar
+  - 应用类加载器: classpath
+    应用类加载器专门加载: classpath中的类。
+
 ## Java 源程序与编译型运行区别
 
 ![Java 源程序与编译型运行区别](Pictures\Java程序与编译型程序运行的区别.png)
